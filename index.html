@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar-->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo"><h2>Port<span>folio.</span></h2></a>
+            <ul>
+                <li><a href="#About">About me</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Contact">Contact me</a></li>
+            </ul>
+         
+        </div>
+    </nav>
+
+  
+    <!--Header section-->
+    <header>
+        <div class="header-container container">
+            <div class="header-left">
+                <h1>
+                    Hy, I am<br>
+                   <span>Priyanka Bani.</span> 
+                </h1>
+                <p>I'm a CS student who's all about cracking coding challenges and diving into the world of data structures. But you know what really gets me excited? Web dev!   I'm on  onto bring the best of both worlds together. Check out my portfolio !!!!!</p>
+            
+                <h5>Frontend Developer</h5>
+                <div class="header-action-aria">
+                    <a href="./resume_new.pdf" download class="btn btn-primary">Download Resume</a>
+                    <a href="" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="./bg.png">
+            </div>
+        </div>
+    </header>
+
+    <!--About Section-->
+    <div id="About">
+        <div class="cont">
+
+        
+        <div class="abo">
+        <div><img src="./p9.jpg" class="image"></div>
+    
+        <div class="container about-container">
+            <h1>About</h1>
+            <p>"Hello, I'm a third-year student at Graphic Era University, where I'm currently pursuing a Bachelor of Technology (B.Tech) degree. My academic journey has been an exciting and challenging adventure, shaped by my growing passion for programming and development. As I delve deeper into the world of technology, I've discovered that it's not just a field of study for me; it's a realm of endless possibilities and innovation.</p>
+            <div class="about-content">
+                <article class="about-article">
+                    <img src="./vector.png">
+                    <h5>Full Name</h5>
+                    <small>Priyanka Bani</small>
+                </article>
+                <article class="about-article">
+                    <img src="./vector.png">
+                    <h5>Email Affress</h5>
+                    <small>priyankabani13official@gmail.com</small>
+                </article>
+                <article class="about-article">
+                    <img src="./vector.png">
+                    <h5>Linkedin</h5>
+                    <small>Priyanka bani</small>
+                </article>
+                <article class="about-article">
+                    <img src="./vector.png">
+                    <h5>Phone</h5>
+                    <small>9389778116</small>
+                </article>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    
+    </section>
+
+    <!--Service section-->
+    <section id="services">
+        <h1>What I do</h1>
+        <div class="container services-container">
+            <article class="services-article">
+                <img src="./s2.png">
+                <h2>Web Development</h2>
+            </article>
+            <article class="services-article">
+                <img src="./s1.png">
+                <h2>Programming</h2>
+            </article>
+            <article class="services-article">
+                <img src="./s3.png">
+                <h2>Web Designing</h2>
+            </article>
+        </div>
+    </section>
+
+    <!--Skill Section-->
+    <section id="skills">
+        <h1>My Skills</h1>
+        <div class="container skills-container">
+            <article class="skill-article">
+                <h1>90%</h1>
+                <h4>HTML</h4>
+            </article>
+            <article class="skill-article">
+                <h1>980%</h1>
+                <h4>CSS</h4>
+            </article>
+            <article class="skill-article">
+                <h1>40%</h1>
+                <h4>Javascript</h4>
+            </article>
+            <article class="skill-article">
+                <h1>70%</h1>
+                <h4>Programming</h4>
+            </article>
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="container services-container">
+            <article class="services-article">
+                <img src="./s2.png">
+                <h2>E-commerce Website</h2>
+            </article>
+            <article class="services-article">
+                <img src="./s1.png">
+                <h2>Algorithm Visualizer</h2>
+            </article>
+            <article class="services-article">
+                <img src="./s3.png">
+                <h2>Mern Chat app</h2>
+            </article>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+        <h1>Contact me</h1>
+        <div class="contact-container container">
+            <form>
+                <div class="form-top">
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" placeholder="Phone Number" required>
+                </div>
+                <div class="form-bottom">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Submit Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <footer class="footer">
+       
+            &copf;priyanka
+
+       
+    </footer>
+    
+    <!--Script Section-->
+    <script>
+        let nav=document.querySelector('nav');
+        window.addEventListener('scroll',()=>{
+            nav.classList.toggle('naWinScroll',window.scrollY>0)
+        })
+    </script>
+
+
+
+    
+</body>
+</html>
